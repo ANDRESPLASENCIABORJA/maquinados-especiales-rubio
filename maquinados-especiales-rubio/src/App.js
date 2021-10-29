@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+// First import react
+import React from "react";
+
+// import router
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+// Import materialize
+import 'materialize-css';
+
+
+// Import css stylesheet
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello React</h1>
     </div>
   );
 }
